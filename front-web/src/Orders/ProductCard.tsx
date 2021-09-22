@@ -27,12 +27,12 @@ function ProductsCard({product, onSelectProduct, isSelected }: Props) {
             <h3 className="order-card-price">
                 {formatPrice(product.price)}
             </h3>
-            <div className="order-card-description"></div>
+            <div className="order-card-description">
             <h3>Descrição</h3>
             <p>
             {product.description}
             </p>
-
+            </div>
         </div>
     )
 }
